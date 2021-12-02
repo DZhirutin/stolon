@@ -1,0 +1,10 @@
+
+
+
+
+
+
+docker run --rm \        
+        -v "$PWD":/var/lib/postgresql \
+        "tianon/postgres-upgrade:10-to-14" \  
+        --link
